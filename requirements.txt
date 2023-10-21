@@ -69,3 +69,4 @@ webdataset==0.2.5
 webrtcvad==2.0.10
 yapf==0.32.0
 git+https://github.com/openai/CLIP.git
+validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
