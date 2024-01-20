@@ -34,7 +34,7 @@ omegaconf==2.1.1
 open_clip_torch==2.0.2
 openai
 openai-whisper
-opencv-contrib-python==4.3.0.36
+opencv-contrib-python==4.8.1.78.36
 praat-parselmouth==0.3.3
 prettytable==3.6.0
 proglog==0.1.9
@@ -50,23 +50,25 @@ safetensors==0.2.7
 sklearn==0.0
 soundfile
 soupsieve==2.3
-streamlit==1.12.1
+streamlit==1.27.0
 streamlit-drawable-canvas==0.8.0
 tensorboardX==2.4
 test-tube>=0.7.5
 TextGrid==1.5
 timm==0.6.12
-torch==1.12.1
+torch==1.13.1
 torchaudio==0.12.1
 torch-fidelity==0.3.0
 torchlibrosa
 torchmetrics==0.6.0
 torchvision==0.13.1
-transformers==4.26.1
+transformers==4.30.0
 typing-extensions==4.0.0
 uuid==1.30
 webdataset==0.2.5
 webrtcvad==2.0.10
 yapf==0.32.0
 git+https://github.com/openai/CLIP.git
-validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
+
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+
