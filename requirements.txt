@@ -56,13 +56,13 @@ tensorboardX==2.4
 test-tube>=0.7.5
 TextGrid==1.5
 timm==0.6.12
-torch==1.12.1
+torch==1.13.1
 torchaudio==0.12.1
 torch-fidelity==0.3.0
 torchlibrosa
 torchmetrics==0.6.0
 torchvision==0.13.1
-transformers==4.26.1
+transformers==4.30.0
 typing-extensions==4.0.0
 uuid==1.30
 webdataset==0.2.5
@@ -70,3 +70,4 @@ webrtcvad==2.0.10
 yapf==0.32.0
 git+https://github.com/openai/CLIP.git
 tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+
