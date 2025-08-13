@@ -56,13 +56,13 @@ tensorboardX==2.4
 test-tube>=0.7.5
 TextGrid==1.5
 timm==0.6.12
-torch==1.13.1
+torch==2.8.0
 torchaudio==0.12.1
 torch-fidelity==0.3.0
 torchlibrosa
 torchmetrics==0.6.0
 torchvision==0.13.1
-transformers==4.30.0
+transformers==4.53.0
 typing-extensions==4.0.0
 uuid==1.30
 webdataset==0.2.5
@@ -70,5 +70,16 @@ webrtcvad==2.0.10
 yapf==0.32.0
 git+https://github.com/openai/CLIP.git
 
-pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
 
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+python-multipart>=0.0.18 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.47.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
